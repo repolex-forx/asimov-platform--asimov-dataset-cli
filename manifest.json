@@ -33,6 +33,292 @@
         "blob/51e7bdc94e090c1e124270c5b99a3418c90a221e.nq.gz",
         "blob/0d29b413d3a30a3012cc627862195caea84ea5e1.nq.gz",
         "blob/fd0ea036c4b73cd5f5421d9be4430e857556b1b0.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/8865d1a1777c326ccbdceff48f701223431cec1f.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8865d1a1777c326ccbdceff48f701223431cec1f.nq.gz",
+      "repolex": "aggregate/repolex/8865d1a1777c326ccbdceff48f701223431cec1f.nq.gz",
+      "dep": "dep/8865d1a1777c326ccbdceff48f701223431cec1f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "borsh",
+          "ecosystem": "CARGO",
+          "version": "1.5.6",
+          "githubOrg": "near",
+          "githubRepo": "borsh-rs",
+          "githubUrl": "https://github.com/near/borsh-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clientele",
+          "ecosystem": "CARGO",
+          "version": "0.2.5",
+          "githubOrg": "dryrust",
+          "githubRepo": "clientele.rs",
+          "githubCommit": "02a4021705fc7bd01f10f2ae858252234c6b1b30",
+          "githubTag": "0.2.5",
+          "githubUrl": "https://github.com/dryrust/clientele.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "color-eyre",
+          "ecosystem": "CARGO",
+          "version": "0.6.3",
+          "githubOrg": "eyre-rs",
+          "githubRepo": "eyre",
+          "githubCommit": "b0dfdc1a7ff361904ecca41fef4f4ef6902b388d",
+          "githubTag": "v0.6.3",
+          "githubUrl": "https://github.com/eyre-rs/eyre",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "crossbeam",
+          "ecosystem": "CARGO",
+          "version": "0.8.4",
+          "githubOrg": "crossbeam-rs",
+          "githubRepo": "crossbeam",
+          "githubCommit": "9c3182abebb36bdc9446d75d4644190fef70fa01",
+          "githubTag": "crossbeam-0.8.4",
+          "githubUrl": "https://github.com/crossbeam-rs/crossbeam",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "crossterm",
+          "ecosystem": "CARGO",
+          "version": "0.28.1",
+          "githubOrg": "crossterm-rs",
+          "githubRepo": "crossterm",
+          "githubUrl": "https://github.com/crossterm-rs/crossterm",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "itertools",
+          "ecosystem": "CARGO",
+          "version": "0.14.0",
+          "githubOrg": "rust-itertools",
+          "githubRepo": "itertools",
+          "githubCommit": "a015a6831525ee1637df747d3f530a627d9741bf",
+          "githubTag": "v0.14.0",
+          "githubUrl": "https://github.com/rust-itertools/itertools",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "near-api",
+          "ecosystem": "CARGO",
+          "version": "0.5.0",
+          "githubOrg": "near",
+          "githubRepo": "near-api-rs",
+          "githubCommit": "2eeaa35ae12f2b7eafc60e5482a480466873ef1d",
+          "githubTag": "v0.5.0",
+          "githubUrl": "https://github.com/near/near-api-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num_cpus",
+          "ecosystem": "CARGO",
+          "version": "^1.0",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "num_cpus",
+          "githubUrl": "https://github.com/seanmonstar/num_cpus",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "oneshot",
+          "ecosystem": "CARGO",
+          "version": "0.1.11",
+          "githubOrg": "faern",
+          "githubRepo": "oneshot",
+          "githubCommit": "25274e995ee0a702b3e9e1ac81e577f8c3ce0892",
+          "githubTag": "v0.1.11",
+          "githubUrl": "https://github.com/faern/oneshot",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "oxrdf",
+          "ecosystem": "CARGO",
+          "version": "0.2.4",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "3e05c6ef4049623e77500196b4136e25b6f7789d",
+          "githubTag": "v0.2.4",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "oxrdfio",
+          "ecosystem": "CARGO",
+          "version": "0.1.7",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/master/lib/oxrdfxml",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ratatui",
+          "ecosystem": "CARGO",
+          "version": "0.29.0",
+          "githubOrg": "ratatui",
+          "githubRepo": "ratatui",
+          "githubCommit": "28732176e1adb4cddba45c2d6b2b27abf7a46f79",
+          "githubTag": "v0.29.0",
+          "githubUrl": "https://github.com/ratatui/ratatui",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rdf-borsh",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "rust-rdf",
+          "githubRepo": "rdf.rs",
+          "githubCommit": "61e26eb5ce4d3b36a1f9d933488db9e4aad62ee9",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/rust-rdf/rdf.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rdf-writer",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "rust-rdf",
+          "githubRepo": "rdf.rs",
+          "githubCommit": "61e26eb5ce4d3b36a1f9d933488db9e4aad62ee9",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/rust-rdf/rdf.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rdf_rs",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "rust-rdf",
+          "githubRepo": "rdf.rs",
+          "githubCommit": "61e26eb5ce4d3b36a1f9d933488db9e4aad62ee9",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/rust-rdf/rdf.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.44.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "d413c9c02af8f2b4fea14b769b86484b12f46595",
+          "githubTag": "tokio-1.44.1",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1.41",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "0ca78870815a34a345a908f48db057057e8803d2",
+          "githubTag": "tracing-0.1.41",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing-subscriber",
+          "ecosystem": "CARGO",
+          "version": "0.3.19",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cfg_aliases",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "katharostech",
+          "githubRepo": "cfg_aliases",
+          "githubUrl": "https://github.com/katharostech/cfg_aliases",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "shadow-rs",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "baoyachi",
+          "githubRepo": "shadow-rs",
+          "githubUrl": "https://github.com/baoyachi/shadow-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "near-primitives",
+          "ecosystem": "CARGO",
+          "version": "0.29.2",
+          "githubOrg": "near",
+          "githubRepo": "nearcore",
+          "githubUrl": "https://github.com/near/nearcore",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/near-primitives-0.29.2/src/action/mod.rs"
+        },
+        {
+          "packageName": "near-gas",
+          "ecosystem": "CARGO",
+          "version": "0.3.4",
+          "githubOrg": "near",
+          "githubRepo": "near-gas",
+          "githubCommit": "0f546609ca05cfdc3909278fc9200da3a236b68a",
+          "githubTag": "v0.3.4",
+          "githubUrl": "https://github.com/near/near-gas",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/near-gas-0.3.4/src/lib.rs"
+        },
+        {
+          "packageName": "crossbeam-utils",
+          "ecosystem": "CARGO",
+          "version": "0.8.21",
+          "githubOrg": "crossbeam-rs",
+          "githubRepo": "crossbeam",
+          "githubUrl": "https://github.com/crossbeam-rs/crossbeam",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crossbeam-utils-0.8.21/src/atomic/atomic_cell.rs"
+        },
+        {
+          "packageName": "rbs",
+          "ecosystem": "RUBYGEMS",
+          "version": "4.0.0.",
+          "githubOrg": "ruby",
+          "githubRepo": "rbs",
+          "githubUrl": "https://github.com/ruby/rbs.git",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/gem/ruby/3.2.0/gems/rbs-4.0.0.dev.4/core/kernel.rbs"
+        },
+        {
+          "packageName": "rake",
+          "ecosystem": "RUBYGEMS",
+          "version": "13.0.6",
+          "githubOrg": "ruby",
+          "githubRepo": "rake",
+          "githubCommit": "5c60da8644a9e4f655e819252e3b6ca77f42b7af",
+          "githubTag": "v13.0.6",
+          "githubUrl": "https://github.com/ruby/rake",
+          "source": "lsp",
+          "install_path": "/usr/lib/ruby/gems/3.2.0/gems/rake-13.0.6/lib/rake/dsl_definition.rb"
+        }
       ]
     },
     {
