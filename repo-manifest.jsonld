@@ -28,8 +28,9 @@
     {
       "@id": "https://repolex.ai/r/asimov-platform/asimov-dataset-cli/commit/830bb42e1c3a346ad3150b9a1c76021ced410428",
       "git:hexsha": "830bb42e1c3a346ad3150b9a1c76021ced410428",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "25.0.0-dev.4"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "25.0.0-dev.4",
+      "repolex:parsedAt": "2026-04-03T07:02:02.030194+00:00"
     },
     {
       "@id": "https://repolex.ai/r/asimov-platform/asimov-dataset-cli/commit/9128a60e079704f237ca40451e63ad1fac38b58a",
